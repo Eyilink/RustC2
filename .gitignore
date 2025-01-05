@@ -1,0 +1,3 @@
+# Ignore build directories
+c2_client/target/
+c2_server/target/

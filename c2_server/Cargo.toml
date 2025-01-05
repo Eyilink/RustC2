@@ -1,0 +1,10 @@
+[package]
+name = "c2_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3", features = ["handleapi", "processthreadsapi", "memoryapi", "synchapi", "winnt", "winbase"] }
+aes = "0.7.5"
+block-modes = "0.8.1"
+block-buffer = "0.9.0"
